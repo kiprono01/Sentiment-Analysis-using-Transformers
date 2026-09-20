@@ -10,8 +10,8 @@ The technical challenge lies in building and fine-tuning a transformer-based mod
 # Core Components of SentimentScope
 To bring SentimentScope to life, several key components must come together:
 
-Data Preparation: Cleaning, tokenizing, and splitting the IMDB dataset into training, validation, and test sets to ensure the model is trained on high-quality and representative data.
-Transformer Model Architecture: Customizing a transformer-based neural network for sentiment analysis, including necessary tweaks for classification tasks.
-Data Loading and Processing: Implementing a PyTorch DataLoader to efficiently feed data into the model during training and evaluation.
-Training and Validation Framework: Developing functions for model training and validation, including loss calculation and optimization to ensure high performance.
-Testing and Evaluation: Creating a robust evaluation function to test the model’s accuracy and effectiveness on unseen data.
+1. Data Preparation: Cleaning, tokenizing, and splitting the IMDB dataset into training, validation, and test sets to ensure the model is trained on high-quality and representative data.
+2. Transformer Model Architecture: Customizing a transformer-based neural network for sentiment analysis, including necessary tweaks for classification tasks.
+3. Data Loading and Processing: Implementing a PyTorch DataLoader to efficiently feed data into the model during training and evaluation.
+4. Training and Validation Framework: Developing functions for model training and validation, including loss calculation and optimization to ensure high performance.
+5. Testing and Evaluation: Creating a robust evaluation function to test the model’s accuracy and effectiveness on unseen data.
